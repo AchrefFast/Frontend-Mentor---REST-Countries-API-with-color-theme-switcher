@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/AchrefFast/Frontend-Mentor---REST-Countries-API-with-color-theme-switcher)
-- [Live Site URL](https://frontend-mentor-rock-paper-scissors-pied.vercel.app/)
+- [Live Site URL](https://frontend-mentor-rest-countries-api-with-color-theme-switcher-xi.vercel.app/)
 
 ## My process
 
