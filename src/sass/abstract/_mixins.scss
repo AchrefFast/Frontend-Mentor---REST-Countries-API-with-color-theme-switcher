@@ -3,9 +3,9 @@
 @mixin var($property, $variable, $mode) {
   @if $mode == light {
     #{$property}: map-get($light-mode, $variable);
-    // #{$property}: var(--light-#{$variable});
+    #{$property}: var(--light-#{$variable});
   } @else if $mode == dark {
     #{$property}: map-get($dark-mode, $variable);
-    // #{$property}: var(--dark-#{$variable});
+    #{$property}: var(--dark-#{$variable});
   }
 }
