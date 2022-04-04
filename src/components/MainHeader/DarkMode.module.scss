@@ -1,0 +1,22 @@
+@use "../../sass/abstract/index" as *;
+
+.light,
+.dark {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  &:hover,
+  &:focus-visible {
+    color: rgb(159, 159, 159);
+  }
+}
+
+.light {
+  @include var(color, text, light);
+}
+
+.dark {
+  @include var(color, text, dark);
+}

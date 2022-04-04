@@ -1,0 +1,20 @@
+.countries-grid {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  //   padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 264px);
+  gap: 74px;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    &:hover,
+    &:focus,
+    &:active {
+      transform: scale(1.15);
+    }
+  }
+}

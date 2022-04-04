@@ -1,0 +1,30 @@
+@use "./sass/abstract/index" as *;
+
+// :root {
+//   @each $property, $variable in $light-mode {
+//     --#{$property}: #{$variable};
+//   }
+// }
+.app {
+  min-height: 100vh;
+  @include var(background, background, light);
+  padding: 0.05px;
+  transition: all 0.5s ease-in-out;
+}
+
+.dark {
+  @include var(background, background, dark);
+}
+
+.loading {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.app2 {
+  min-height: 100vh;
+  padding: 0.05px;
+  @include var(background, background, dark);
+  padding: 5rem 0 0 5rem;
+}

@@ -1,0 +1,49 @@
+@use "../../sass/abstract/index" as *;
+
+.country-block {
+  font-size: 14px;
+  font-weight: 600;
+  @include var(background, elements, light);
+  @include var(color, text, light);
+  overflow: hidden;
+  border-radius: 6px;
+  width: 264px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+
+  .image-container {
+    width: 264px;
+    height: 162px;
+  }
+
+  img {
+    width: 101%;
+    height: 162px;
+    object-fit: cover;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.country-block--body {
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+
+  h2 {
+    font-size: 18px;
+    margin: 0 0 1rem 0;
+    text-align: left;
+  }
+
+  p {
+    margin: 0 0 7px 0;
+    font-size: 14px;
+  }
+
+  span {
+    font-weight: 300;
+  }
+}
+
+.dark {
+  @include var(background, elements, dark);
+  @include var(color, text, dark);
+}

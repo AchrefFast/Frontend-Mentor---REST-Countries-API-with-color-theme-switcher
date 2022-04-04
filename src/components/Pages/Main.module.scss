@@ -1,0 +1,39 @@
+.main {
+  padding-inline: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: ;
+  align-items: center;
+  margin-block: 48px;
+  row-gap: 48px;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 666px) {
+  .inputs {
+    align-items: flex-start;
+    padding-inline: 3rem;
+  }
+}
+@media (min-width: 900px) {
+  .inputs {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1400px) {
+  .inputs {
+    padding-inline: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+h2 {
+  text-align: center;
+}
