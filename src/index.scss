@@ -1,13 +1,13 @@
 @use "./sass/abstract/index" as *;
 
-:root {
-  @each $property, $variable in $light-mode {
-    --light-#{$property}: #{$variable};
-  }
-  @each $property, $variable in $dark-mode {
-    --dark-#{$property}: #{$variable};
-  }
-}
+// :root {
+//   @each $property, $variable in $light-mode {
+//     --light-#{$property}: #{$variable};
+//   }
+//   @each $property, $variable in $dark-mode {
+//     --dark-#{$property}: #{$variable};
+//   }
+// }
 
 *,
 *:before,
